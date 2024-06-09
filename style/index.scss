@@ -1,0 +1,34 @@
+@use './fonts';
+
+@use './variable';
+
+@import './header';
+@import './main';
+@import './footer';
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+header,main {
+    margin: 0;
+    padding: 0;
+}
+
+.header__container, .nav__container {
+    margin: 0;
+    padding: 0;
+}
+
+.section__container {
+    margin: 0;
+    padding: 0;
+}
