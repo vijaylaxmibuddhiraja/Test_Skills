@@ -116,10 +116,10 @@
 
 .rectangle-1{
     width: 100%;
-    max-width:573px;
-    min-height: 384px;
+    max-width:543px;
+    min-height: 374px;
     margin-top: 15% ;
-    margin-left: 8%;
+    margin-left: 18%;
     opacity: 0.8;
     background-color: variable.$background-color;
 }
@@ -144,11 +144,11 @@
 
 .content-c{
     width: 100%;
-    max-width: 508px;
+    max-width: 500px;
     min-height: 78px;
     letter-spacing: 1px;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 26px;
 }
 
@@ -171,3 +171,23 @@
         }
 }
 
+.section__container-D{
+    width: 100%;
+    max-width: 1770px;
+    min-height: 700px;
+    background-image: url(/images/yellowsky.png);
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items: end;
+}
+
+.rectangle-2{
+    width: 100%;
+    max-width:543px;
+    min-height: 374px;
+    margin-top: 15%;
+    margin-right: 8%;
+    opacity: 0.9;
+    background-color: variable.$background-color;
+}
