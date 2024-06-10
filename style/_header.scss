@@ -170,7 +170,19 @@
       font-size: 20px;
       letter-spacing: 3px;
       font-weight: bold;
-      padding-left: 50px;
+    //   padding-left: 50px;
+    }
+
+    &__link{
+        font-family: fonts.$font-second;
+        color: variable.$text-color;
+        padding-left: 50px;
+        padding-top: 10px;
+        text-decoration: none;
+         &:hover{
+            color:darkmagenta;
+            transition: all 0.3s ease;
+         }
     }
   
     &__menu {
@@ -191,6 +203,11 @@
         font-size: 12px;
         font-weight: 300;
         letter-spacing: 1px; 
+        &:hover{
+            color:darkmagenta;
+            transition: all 0.3s ease;
+            text-decoration: underline;
+         }
       }
 }   
 
