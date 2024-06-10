@@ -105,53 +105,69 @@
      }
 }
 
-/*.section__sub-container{
+.section__container-C{
+    width: 100%;
+    max-width: 1770px;
+    min-height: 700px;
+    background-image: url(/images/beachhouse.png);
     display: flex;
-    justify-content:space-around;
+    flex-direction: column;    
+}
+
+.rectangle-1{
+    width: 100%;
+    max-width:573px;
+    min-height: 384px;
+    margin-top: 15% ;
+    margin-left: 8%;
+    opacity: 0.8;
+    background-color: variable.$background-color;
+}
+
+.section__content-C{
+    padding-left: 30px;
+    color: variable.$text-color;
+    font-family:fonts.$font-second;
+    padding-top: 40px;
     align-items: center;
-    // padding-top: 6%;
-     
+}
+ 
+.title-c{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
-.section__sub-cont-1{
-     width: 100%;
-     max-width: 340px;
-     min-height: 153px;
-     padding-top: 6%;
-    //  margin-left: 30px;
-     padding-left: 30px;
+.sub-titleC{
+    font-weight: 400;
 }
 
-.content1{
-    width: 59px;
-    height: 60px;
-    padding-left: 45px;
+.content-c{
+    width: 100%;
+    max-width: 508px;
+    min-height: 78px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
 }
 
-.p1, .p2, .p3{
-    color: #fff;
+.content-c_btn{
+    @extend %button;
+    width: 100%;
+    max-width: 200px;
+    min-height: 50px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-left: 55px;
+    padding-top: 18px;
     font-family: fonts.$font-first;
-    font-size: 26px;
-    letter-spacing: 1;
-    font-weight: 300;
+       &:hover{
+        background-color:darkmagenta;
+        color:variable.$p-color;
+        transition: all 0.3s ease;
+        }
 }
-
-.section__sub-cont-2{
-    width: 69px;
-    height: 69px;  
-    padding-right: 50px;
-     margin-right: 50px;  
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
-}   
-
-.p2{
-    width: 230px;
-    
-}
-.section__sub-cont-3{
-    margin-top: 6%;
-}*/
 
