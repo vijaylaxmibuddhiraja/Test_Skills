@@ -1,0 +1,113 @@
+.header__container{
+    width: 100%;
+    max-width: 1773px;
+    min-height: 821px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/bluemountain.png);
+}   
+
+.header__wrapper{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 6%;
+    margin-left: 4%;
+}
+
+
+.header__top{
+    width: 100%;
+    max-width: 372px;
+    min-height: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__title{
+    width: 100%;
+    max-width: 342px;
+    min-height: 26px;
+    color:#ffffff;
+    font-size: 48px;
+    font-weight: bold;
+    font-family:"Josefin Sans", sans-serif;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    }
+
+.header__subtitle{
+    width: 100%;
+        /*max-width: 345px;*/
+        min-height: 26px;
+        font-size:22px;
+        font-family:"Josefin Sans", sans-serif;
+        letter-spacing:5px;
+        margin:0 auto; 
+         color:#ffffff;
+        font-weight:300;
+    }
+    .header__search-wrap{
+        // width: 100%;
+        // height: 100vh;
+        background: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         margin-top: 3%;
+         margin-left:5%;
+        
+    }
+
+    .header__form{
+
+        width: 600px;
+        height: 45px;
+        display: flex;
+        background: white;    
+    }
+
+    .header__form-input{
+        flex: 1;
+        border: none;
+        outline: none;
+        padding-left: 8rem;
+        letter-spacing:2px ;
+        font-family: fonts.$font-second;
+        font-size: 14px;
+    }    
+ 
+    %button{
+        background-color: #5474fd;
+        max-width:143px;
+        height: 43px;
+        // padding: 13px 28px;
+        right: 5px;
+        border: none;
+        margin-top: 1px;
+        margin-right: 1px;
+        border-radius: 2px;
+        display: flex;
+        color: #ffffff;
+        letter-spacing: 1px;
+        cursor: pointer;
+        font-family: fonts.$font-first;
+        font-size: 14px;
+        font-weight: 300;
+    }
+      
+    
+    .header__button{
+        @extend %button;
+        padding: 13px 28px;
+            &:hover{
+                background-color:darkmagenta;
+                color:white;
+                transition: all 0.3s ease;
+            }
+    } 
