@@ -1,0 +1,84 @@
+.section__container-A{
+    width: 100%;
+    max-width: 1770px;
+    height: 685px;
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/castle.png);
+}
+
+.section__container-1{
+       margin-right: 2%;
+       
+}  
+
+.section__div1{
+    width: 100;
+    max-width: 288px;
+    margin-top: 4%;   
+}
+
+.section__head {
+    font-family: fonts.$font-first;
+    letter-spacing: 1px;
+    color:variable.$text-color;  
+    font-weight: 300;
+}
+
+.section__div2{
+    width: 100%;
+    max-width: 480px;
+    min-height: 158px;
+}
+
+.para-1, .para-2{
+    color:variable.$text-color;  
+    font-family: fonts.$font-second;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-weight: 200;
+}
+
+.para-2{
+  max-width: 475px;
+  padding-bottom: 15px;
+}
+
+.section__btn-1{
+    @extend %button;
+    width: 100%;
+    max-width: 200px;
+    min-height: 50px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    padding-top: 17px;
+    font-family: fonts.$font-first;
+       &:hover{
+        background-color:darkmagenta;
+        color:variable.$p-color;
+        transition: all 0.3s ease;
+        }
+}
+
+.section__container-2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-left: 50px;
+    margin-bottom: 45px;
+   
+}
+
+.section__img-1{
+    width: 100%;
+    max-width: 280px;
+    min-height: 180px;
+}
+
+.section__img-2{
+    margin-left:5rem;
+}

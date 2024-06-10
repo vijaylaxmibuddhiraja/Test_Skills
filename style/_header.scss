@@ -155,8 +155,8 @@
       width: 100%;
       height: 63px;
       overflow: hidden;
-      background-color: #5474fd;
-      color: #ffffff;
+      background-color:variable.$main-color;
+      color: variable.$text-color;
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -166,10 +166,11 @@
       width: 100%;
       max-width: 186px;
       height: 20px;
-      font-family:fonts.$font-second; // Assuming $font-second is defined elsewhere
+      font-family:fonts.$font-second; 
       font-size: 20px;
       letter-spacing: 3px;
       font-weight: bold;
+      padding-left: 50px;
     }
   
     &__menu {
@@ -185,11 +186,11 @@
 
     &__menu-link {
         text-decoration: none;
-        font-family:fonts.$font-first; // Assuming $font-first is defined elsewhere
-        color: #ffffff;
+        font-family:fonts.$font-first;
+        color: variable.$text-color;
         font-size: 12px;
         font-weight: 300;
-        letter-spacing: 1px; // Fixed issue with letter-spacing
+        letter-spacing: 1px; 
       }
 }   
 
