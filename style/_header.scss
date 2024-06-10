@@ -143,4 +143,185 @@
     padding-bottom: 10px;
  }
 
+ .nav {
+    &__container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 4%;
+    }
+  
+    &__navbar {
+      width: 100%;
+      height: 63px;
+      overflow: hidden;
+      background-color: #5474fd;
+      color: #ffffff;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  
+    &__logo {
+      width: 100%;
+      max-width: 186px;
+      height: 20px;
+      font-family:fonts.$font-second; // Assuming $font-second is defined elsewhere
+      font-size: 20px;
+      letter-spacing: 3px;
+      font-weight: bold;
+    }
+  
+    &__menu {
+      width: 100%;
+      max-width: 525px;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    &__menu-link {
+        text-decoration: none;
+        font-family:fonts.$font-first; // Assuming $font-first is defined elsewhere
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 300;
+        letter-spacing: 1px; // Fixed issue with letter-spacing
+      }
+}   
+
+ /*.nav__container{
+  
+    display:flex;
+    flex-direction: f;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4%;
+ }
+ 
+ .nav__navbar{
+     width: 100%;
+     height: 63px;
+     overflow: hidden;
+     background-color: #5474fd;
+     color: #ffffff;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ 
+ .nav__logo{
+     width: 100%;
+     max-width:186px;
+     height: 20px;
+     font-family: fonts.$font-second;
+     font-size: 20px;
+     letter-spacing: 3px;
+     font-weight: bold;
+ }
+ 
+ .nav__menu{
+     width: 100%;
+     max-width: 525px;
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     font-size: 14px;
+     text-transform: uppercase;
+ }
+ 
+ .nav__menu-link{
+     text-decoration: none;
+     font-family: fonts.$font-first;
+     color: #ffffff;
+     font-size: 12px;
+     font-weight: 300;
+     letter-spacing: 1;
+ }*/
+
+ /* Media Query for screens up to 320px */
+@media (max-width: 320px) {
+    .header__container {
+        min-height: auto;
+        padding: 20px;
+    }
+
+    .header__wrapper {
+        flex-direction: column;
+        margin-top: 3%;
+        margin-left: 0;
+    }
+
+    .header__title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .header__subtitle {
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .header__search-wrap {
+        margin: 20px 0;
+    }
+
+    .header__form {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .header__form-input {
+        width: 100%;
+        padding-left: 1rem;
+        font-size: 12px;
+    }
+
+    .header__button {
+        width: 100%;
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .scroll__container {
+        flex-direction: column;
+        margin-top: 3%;
+    }
+
+    .scroll__head {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .nav__container {
+        flex-direction: column;
+        margin-bottom: 2%;
+    }
+
+    .nav__navbar {
+        height: auto;
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .nav__logo {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .nav__menu {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .nav__menu-link {
+        margin: 5px 0;
+    }
+}
  
